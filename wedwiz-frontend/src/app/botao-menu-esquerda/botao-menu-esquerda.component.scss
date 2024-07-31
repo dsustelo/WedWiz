@@ -1,0 +1,42 @@
+.botao-menu-esquerda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 275px;
+  height: 40px;
+  padding: 8px 12px;
+  gap: 12px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.icon-botao-menu-esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.img-botao-menu-esquerda {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.texto-botao-menu-esquerda {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 41px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #171212;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}

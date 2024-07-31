@@ -1,0 +1,31 @@
+.container-pesquisa {
+  display: flex;
+  width: 260px;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #edf0f2;
+  box-sizing: border-box;
+}
+
+.caixa-pesquisa {
+  width: 192px;
+  height: 24px;
+  border: none;
+  outline: none;
+  background-color: #edf0f2;
+  color: #3d404a;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icon-pesquisa {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
