@@ -9,6 +9,8 @@
   gap: 12px;
   flex-shrink: 0;
   box-sizing: border-box;
+  border-width: 0;
+  border-radius: 4px;
 }
 
 .icon-botao-menu-esquerda {
@@ -31,12 +33,12 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 41px;
+  width: fit-content;
   height: 24px;
   flex-shrink: 0;
   color: #171212;
   font-family: Epilogue;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
 }
