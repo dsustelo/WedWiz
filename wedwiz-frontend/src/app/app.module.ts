@@ -6,7 +6,7 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BarratopoModule } from './barratopo/barratopo.module';
+import { TopModule } from './top/top.module';
 import { MenuEsquerdaComponent } from './menu-esquerda/menu-esquerda.component';
 import { BotaoMenuEsquerdaComponent } from './botao-menu-esquerda/botao-menu-esquerda.component';
 
@@ -16,7 +16,7 @@ import { BotaoMenuEsquerdaComponent } from './botao-menu-esquerda/botao-menu-esq
     MenuEsquerdaComponent,
     BotaoMenuEsquerdaComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BarratopoModule],
+  imports: [BrowserModule, AppRoutingModule, TopModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })

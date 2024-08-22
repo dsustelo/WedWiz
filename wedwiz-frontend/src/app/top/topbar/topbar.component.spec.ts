@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BarratopoComponent } from './barratopo.component';
+import { BarratopoComponent } from './topbar.component';
 
 describe('BarratopoComponent', () => {
   let component: BarratopoComponent;
@@ -8,10 +8,9 @@ describe('BarratopoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BarratopoComponent]
-    })
-    .compileComponents();
-    
+      declarations: [BarratopoComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(BarratopoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

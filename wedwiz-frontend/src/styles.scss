@@ -16,6 +16,6 @@ body {
   background: $itensbackgroundhover;
 }
 
-.itenshovercolor:is {
+.itenspressedcolor:is-active {
   background: $itensbackgroundpressed;
 }
