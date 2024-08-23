@@ -29,7 +29,7 @@
 /wedwiz-frontend/.history/*
 
 # Miscellaneous
-/.angular/cache
+/wedwiz-frontend/.angular/cache
 /wedwiz-frontend/.sass-cache/
 /wedwiz-frontend/connect.lock
 /wedwiz-frontend/coverage
