@@ -1,0 +1,15 @@
+.profile-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Diâmetro da bola */
+  height: 40px; /* Diâmetro da bola */
+  border-radius: 50%; /* Faz a bola ter a forma de um círculo */
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+}

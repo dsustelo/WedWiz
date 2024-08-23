@@ -1,0 +1,29 @@
+.search-container {
+  display: flex;
+  width: 260px;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-box {
+  width: 192px;
+  height: 24px;
+  border: none;
+  outline: none;
+  color: #3d404a;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.search-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
