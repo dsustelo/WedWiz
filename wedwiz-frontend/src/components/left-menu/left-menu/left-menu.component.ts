@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-menu-esquerda',
-  templateUrl: './menu-esquerda.component.html',
-  styleUrl: './menu-esquerda.component.scss'
+  selector: 'app-left-menu',
+  templateUrl: './left-menu.component.html',
+  styleUrl: './left-menu.component.scss',
 })
-export class MenuEsquerdaComponent {
-
-}
+export class LeftMenuComponent {}

@@ -1,0 +1,42 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/wedwiz-frontend/dist
+/wedwiz-frontend/tmp
+/wedwiz-frontend/out-tsc
+/wedwiz-frontend/bazel-out
+
+# Node
+/wedwiz-frontend/node_modules
+/wedwiz-frontend/npm-debug.log
+/wedwiz-frontend/yarn-error.log
+
+# IDEs and editors
+/wedwiz-frontend/.idea/
+/wedwiz-frontend/.project
+/wedwiz-frontend/.classpath
+/wedwiz-frontend/.c9/
+/wedwiz-frontend/*.launch
+/wedwiz-frontend/.settings/
+/wedwiz-frontend/*.sublime-workspace
+
+# Visual Studio Code
+/wedwiz-frontend/.vscode/*
+/wedwiz-frontend/!.vscode/settings.json
+/wedwiz-frontend/!.vscode/tasks.json
+/wedwiz-frontend/!.vscode/launch.json
+/wedwiz-frontend/!.vscode/extensions.json
+/wedwiz-frontend/.history/*
+
+# Miscellaneous
+/.angular/cache
+/wedwiz-frontend/.sass-cache/
+/wedwiz-frontend/connect.lock
+/wedwiz-frontend/coverage
+/wedwiz-frontend/libpeerconnection.log
+/wedwiz-frontend/testem.log
+/wedwiz-frontend/typings
+
+# System files
+/wedwiz-frontend/.DS_Store
+/wedwiz-frontend/Thumbs.db

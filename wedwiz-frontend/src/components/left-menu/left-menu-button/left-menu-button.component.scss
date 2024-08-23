@@ -1,4 +1,4 @@
-.botao-menu-esquerda {
+.left-menu-button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -13,7 +13,7 @@
   border-radius: 4px;
 }
 
-.icon-botao-menu-esquerda {
+.left-menu-button-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,13 +22,13 @@
   flex-shrink: 0;
 }
 
-.img-botao-menu-esquerda {
+.left-menu-button-img {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
 }
 
-.texto-botao-menu-esquerda {
+.left-menu-button-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

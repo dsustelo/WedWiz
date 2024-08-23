@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-botao-menu-esquerda',
-  templateUrl: './botao-menu-esquerda.component.html',
-  styleUrl: './botao-menu-esquerda.component.scss',
+  selector: 'app-left-menu-button',
+  templateUrl: './left-menu-button.component.html',
+  styleUrl: './left-menu-button.component.scss',
 })
-export class BotaoMenuEsquerdaComponent {
+export class LeftMenuButtonComponent {
   @Input() value: string = '';
   @Input() icon: string = '';
 }

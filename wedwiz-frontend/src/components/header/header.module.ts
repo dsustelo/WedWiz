@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TopbarComponent } from './top-bar/topbar.component';
-import { CaixapesquisaComponent } from './caixapesquisa/caixapesquisa.component';
-import { BotaoperfilComponent } from './botaoperfil/botaoperfil.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { SearchBoxComponent } from './search-box/search-box.component';
+import { ProfileButtonComponent } from './profile-button/profile-button.component';
 
 @NgModule({
-  declarations: [TopbarComponent, CaixapesquisaComponent, BotaoperfilComponent],
+  declarations: [TopBarComponent, SearchBoxComponent, ProfileButtonComponent],
   imports: [CommonModule],
-  exports: [TopbarComponent],
+  exports: [TopBarComponent],
 })
-export class TopModule {}
+export class HeaderModule {}
