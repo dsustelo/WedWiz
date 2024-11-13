@@ -1,21 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
-@import "./styles/variables";
+@import "./styles/utils/backgrounds";
 
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-}
-
-.itensmaincolor {
-  background: $itembackgroundcolor;
-}
-
-.itenshovercolor:hover {
-  background: $itensbackgroundhover;
-}
-
-.itenspressedcolor:is-active {
-  background: $itensbackgroundpressed;
 }
