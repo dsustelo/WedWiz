@@ -40,3 +40,44 @@
 # System files
 /wedwiz-frontend/.DS_Store
 /wedwiz-frontend/Thumbs.db
+
+
+
+# Compiled output
+/wedwiz-frontend-old/dist
+/wedwiz-frontend-old/tmp
+/wedwiz-frontend-old/out-tsc
+/wedwiz-frontend-old/bazel-out
+
+# Node
+/wedwiz-frontend-old/node_modules
+/wedwiz-frontend-old/npm-debug.log
+/wedwiz-frontend-old/yarn-error.log
+
+# IDEs and editors
+/wedwiz-frontend-old/.idea/
+/wedwiz-frontend-old/.project
+/wedwiz-frontend-old/.classpath
+/wedwiz-frontend-old/.c9/
+/wedwiz-frontend-old/*.launch
+/wedwiz-frontend-old/.settings/
+/wedwiz-frontend-old/*.sublime-workspace
+# Visual Studio Code
+/wedwiz-frontend-old/.vscode/*
+/wedwiz-frontend-old/!.vscode/settings.json
+/wedwiz-frontend-old/!.vscode/tasks.json
+/wedwiz-frontend-old/!.vscode/launch.json
+/wedwiz-frontend-old/!.vscode/extensions.json
+/wedwiz-frontend-old/.history/*
+
+# Miscellaneous
+/wedwiz-frontend-old/.angular/cache
+/wedwiz-frontend-old/.sass-cache/
+/wedwiz-frontend-old/connect.lock
+/wedwiz-frontend-old/coverage
+/wedwiz-frontend-old/libpeerconnection.log
+/wedwiz-frontend-old/testem.log
+/wedwiz-frontend-old/typings
+# System files
+/wedwiz-frontend-old/.DS_Store
+/wedwiz-frontend-old/Thumbs.db

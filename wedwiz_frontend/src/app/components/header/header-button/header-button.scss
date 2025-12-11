@@ -1,0 +1,33 @@
+$primary: #ed2a5b;
+$secondary: #f3e7ea;
+$text: #1b0d11;
+$radius-pill: 9999px;
+
+.header-btn {
+  border: none;
+  border-radius: $radius-pill;
+  padding: 0.5rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  min-width: 84px;
+
+  &.primary {
+    background-color: $primary;
+    color: #fff;
+
+    &:hover {
+      background-color: darken($primary, 5%);
+    }
+  }
+
+  &.secondary {
+    background-color: $secondary;
+    color: $text;
+
+    &:hover {
+      background-color: lighten($secondary, 5%);
+    }
+  }
+}
