@@ -1,83 +1,29 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# IDEs
+.vscode/
+.idea/
+*.iml
 
-# Compiled output
-/wedwiz-frontend/dist
-/wedwiz-frontend/tmp
-/wedwiz-frontend/out-tsc
-/wedwiz-frontend/bazel-out
+# Angular / Node (para qualquer subprojeto)
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+**/out-tsc/
+**/*.tsbuildinfo
 
-# Node
-/wedwiz-frontend/node_modules
-/wedwiz-frontend/npm-debug.log
-/wedwiz-frontend/yarn-error.log
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
 
-# IDEs and editors
-/wedwiz-frontend/.idea/
-/wedwiz-frontend/.project
-/wedwiz-frontend/.classpath
-/wedwiz-frontend/.c9/
-/wedwiz-frontend/*.launch
-/wedwiz-frontend/.settings/
-/wedwiz-frontend/*.sublime-workspace
+# Env
+**/.env
+**/.env.*.local
 
-# Visual Studio Code
-/wedwiz-frontend/.vscode/*
-/wedwiz-frontend/!.vscode/settings.json
-/wedwiz-frontend/!.vscode/tasks.json
-/wedwiz-frontend/!.vscode/launch.json
-/wedwiz-frontend/!.vscode/extensions.json
-/wedwiz-frontend/.history/*
+# Archives / artefactos
+**/*.zip
 
-# Miscellaneous
-/wedwiz-frontend/.angular/cache
-/wedwiz-frontend/.sass-cache/
-/wedwiz-frontend/connect.lock
-/wedwiz-frontend/coverage
-/wedwiz-frontend/libpeerconnection.log
-/wedwiz-frontend/testem.log
-/wedwiz-frontend/typings
-
-# System files
-/wedwiz-frontend/.DS_Store
-/wedwiz-frontend/Thumbs.db
-
-
-
-# Compiled output
-/wedwiz-frontend-old/dist
-/wedwiz-frontend-old/tmp
-/wedwiz-frontend-old/out-tsc
-/wedwiz-frontend-old/bazel-out
-
-# Node
-/wedwiz-frontend-old/node_modules
-/wedwiz-frontend-old/npm-debug.log
-/wedwiz-frontend-old/yarn-error.log
-
-# IDEs and editors
-/wedwiz-frontend-old/.idea/
-/wedwiz-frontend-old/.project
-/wedwiz-frontend-old/.classpath
-/wedwiz-frontend-old/.c9/
-/wedwiz-frontend-old/*.launch
-/wedwiz-frontend-old/.settings/
-/wedwiz-frontend-old/*.sublime-workspace
-# Visual Studio Code
-/wedwiz-frontend-old/.vscode/*
-/wedwiz-frontend-old/!.vscode/settings.json
-/wedwiz-frontend-old/!.vscode/tasks.json
-/wedwiz-frontend-old/!.vscode/launch.json
-/wedwiz-frontend-old/!.vscode/extensions.json
-/wedwiz-frontend-old/.history/*
-
-# Miscellaneous
-/wedwiz-frontend-old/.angular/cache
-/wedwiz-frontend-old/.sass-cache/
-/wedwiz-frontend-old/connect.lock
-/wedwiz-frontend-old/coverage
-/wedwiz-frontend-old/libpeerconnection.log
-/wedwiz-frontend-old/testem.log
-/wedwiz-frontend-old/typings
-# System files
-/wedwiz-frontend-old/.DS_Store
-/wedwiz-frontend-old/Thumbs.db
+# OS junk
+.DS_Store
+Thumbs.db
