@@ -1,0 +1,31 @@
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="Ir para o inicio da pagina">
+    <span class="brand__mark" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#brand-shape)">
+          <path
+            d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z"
+            fill="currentColor"
+          />
+        </g>
+        <defs>
+          <clipPath id="brand-shape">
+            <rect width="48" height="48" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </span>
+    <span class="brand__text">WedWiz - Wedding Planner</span>
+  </a>
+
+  <nav class="main-nav" aria-label="Navegacao principal">
+    @for (item of navigationItems(); track item.label) {
+      <a class="main-nav__link" [href]="'#' + item.fragment">{{ item.label }}</a>
+    }
+  </nav>
+
+  <div class="topbar__actions">
+    <app-button href="#registo" label="Registar" />
+    <app-button href="#login" label="Login" variant="secondary" />
+  </div>
+</header>

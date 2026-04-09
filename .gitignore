@@ -4,6 +4,9 @@
 *.iml
 
 # Angular / Node (para qualquer subprojeto)
+**/.vscode/
+**/.idea/
+**/*.iml
 **/node_modules/
 **/dist/
 **/.angular/

@@ -1,0 +1,49 @@
+<section class="hero">
+  <div class="hero__copy">
+    <p class="eyebrow">Planeamento elegante para um dia memoravel</p>
+    <h1>Planeie o seu casamento de sonho com o Celebrare</h1>
+    <p class="hero__description">
+      Uma homepage Angular pronta para evoluir com o seu produto, pensada com
+      estrutura clara, componentes simples e uma base visual forte para
+      apresentar a plataforma.
+    </p>
+
+    <div class="hero__actions">
+      <app-button href="#registo" label="Criar conta" size="large" />
+      <app-button
+        href="#funcionalidades"
+        label="Explorar funcionalidades"
+        size="large"
+        variant="secondary"
+      />
+    </div>
+
+    <dl class="metrics" aria-label="Indicadores principais">
+      @for (metric of metrics(); track metric.label) {
+        <div class="metric">
+          <dt>{{ metric.value }}</dt>
+          <dd>{{ metric.label }}</dd>
+        </div>
+      }
+    </dl>
+  </div>
+
+  <div class="hero__visual" aria-hidden="true">
+    <div class="hero-card hero-card--photo">
+      <div class="hero-card__overlay">
+        <span class="hero-card__tag">Checklist ativa</span>
+        <strong>122 convidados organizados</strong>
+        <span>Convites, mesas e orcamento no mesmo fluxo.</span>
+      </div>
+    </div>
+
+    <div class="hero-card hero-card--details">
+      <p>Resumo rapido</p>
+      <ul>
+        <li>Convites personalizados por casal</li>
+        <li>Mapa de mesas com ajuste simples</li>
+        <li>Pagamentos e fornecedores centralizados</li>
+      </ul>
+    </div>
+  </div>
+</section>

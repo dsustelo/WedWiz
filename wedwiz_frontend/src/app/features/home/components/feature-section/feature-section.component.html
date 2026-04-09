@@ -1,0 +1,15 @@
+<section class="feature-section" id="funcionalidades">
+  <app-section-heading
+    eyebrow="Funcionalidades"
+    title="Tudo o que precisa para tirar stress do planeamento"
+  />
+
+  <div class="feature-grid">
+    @for (feature of features(); track feature.title) {
+      <article class="feature-card">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.description }}</p>
+      </article>
+    }
+  </div>
+</section>

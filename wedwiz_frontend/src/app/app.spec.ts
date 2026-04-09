@@ -14,10 +14,12 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render title', () => {
+  it('should render title', async () => {
     const fixture = TestBed.createComponent(App);
-    fixture.detectChanges();
+    await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, wedwiz_frontend');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Planeie o seu casamento de sonho com o Celebrare',
+    );
   });
 });

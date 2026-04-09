@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+  color: var(--color-text);
+}
+
+.page-shell {
+  min-height: 100dvh;
+  background:
+    radial-gradient(circle at top left, rgb(237 42 91 / 0.14), transparent 30%),
+    linear-gradient(180deg, #fff8fa 0%, #fcf8f9 48%, #fffefe 100%);
+}
+
+.page-content {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding-block: 2rem 4rem;
+}
+
+@media (max-width: 720px) {
+  .page-content {
+    width: min(100% - 1.25rem, 1120px);
+  }
+}

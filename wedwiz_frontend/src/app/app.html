@@ -1,2 +1,9 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
+<div class="page-shell">
+  <app-header [navigationItems]="navigationItems" />
+
+  <main class="page-content" id="inicio">
+    <app-hero-section [metrics]="metrics" />
+    <app-feature-section [features]="features" />
+    <app-info-grid [items]="infoItems" />
+  </main>
+</div>
