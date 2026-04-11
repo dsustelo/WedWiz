@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
-import { ButtonComponent } from '../../../../shared/ui/button/button.component';
+import { ButtonComponent } from '../shared/ui/button/button.component';
 import { NavigationItem } from '../../models/home-page.models';
 
 @Component({

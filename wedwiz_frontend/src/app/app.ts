@@ -1,18 +1,18 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { HeaderComponent } from './features/home/components/header/header.component';
-import { HeroSectionComponent } from './features/home/components/hero-section/hero-section.component';
-import { FeatureSectionComponent } from './features/home/components/feature-section/feature-section.component';
-import { InfoGridComponent } from './features/home/components/info-grid/info-grid.component';
-import { HOME_FEATURES, HOME_INFO_ITEMS, HOME_METRICS, HOME_NAVIGATION } from './features/home/data/home-page.data';
+import { HeaderComponent } from './components/header/header.component';
+import { HeroSectionComponent } from './components/landing-page/hero/hero.component';
+import { FeatureSectionComponent } from './components/landing-page/features/features.component';
+import { InfoGridComponent } from './components/landing-page/info-grid/info-grid.component';
+import {
+  HOME_FEATURES,
+  HOME_INFO_ITEMS,
+  HOME_METRICS,
+  HOME_NAVIGATION,
+} from './data/home-page.data';
 
 @Component({
   selector: 'app-root',
-  imports: [
-    HeaderComponent,
-    HeroSectionComponent,
-    FeatureSectionComponent,
-    InfoGridComponent,
-  ],
+  imports: [HeaderComponent, HeroSectionComponent, FeatureSectionComponent, InfoGridComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
