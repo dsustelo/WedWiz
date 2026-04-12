@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
-import { InfoItem } from '../../models/home-page.models';
+import { InfoItem } from '../../../models/home-page.models';
 
 @Component({
   selector: 'app-info-grid',
